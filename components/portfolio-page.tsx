@@ -19,7 +19,7 @@ export function PortfolioPage() {
             Hallå där! Jag är en hobbyist webbutvecklare och bor i Stockholm. Det här är min Portfolio.
           </h2>
           <p className="text-muted-foreground max-w-2xl">
-            Är i första hand utbildad inom IT Support men har under senaste åren utbildat mig på egen hand inom webbutveckling och frontend utveckling. Min starkaste gren är Wordpress men har även börjat titta lite på React.js Next.js Shopify och Builder.io
+          Hallå där! Jag är en hobbyist webbutvecklare och bor i Stockholm. Är i första hand utbildad inom IT-Support men har under senaste åren utbildat mig (på egen hand) inom webbutveckling och frontend utveckling. Min starkaste gren är Wordpress men har även kunskap om React.js NextJs Shopify och figma.
           </p>
         </section>
 
@@ -31,7 +31,7 @@ export function PortfolioPage() {
               { name: "React.js", href: "#" },
               { name: "NextJs", href: "#" },
               { name: "Github", href: "#" },
-              { name: "Elementor Pro", href: "#" },
+              { name: "Figma", href: "#" },
               { name: "Shopify", href: "#" },
               { name: "Webflow", href: "#" },
               { name: "Woocommerce", href: "#" },
@@ -101,11 +101,18 @@ export function PortfolioPage() {
           <h3 className="text-xl font-semibold mb-4">Mina Projekt</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <Link
-              href="#"
+              href="https://www.dyoid.se/"
               className="p-4 rounded-lg border bg-card text-card-foreground hover:bg-accent transition-colors"
             >
-              <div className="font-medium">dysd butik</div>
-              <div className="text-sm text-muted-foreground">Shopify/builder.io/Next.JS (Dec 2023)</div>
+              <div className="font-medium">dyoid Vanlig sida</div>
+              <div className="text-sm text-muted-foreground">Webflow (Nov 2024)</div>
+            </Link>
+            <Link
+              href="https://bydyoid.wuaze.com/?i=1"
+              className="p-4 rounded-lg border bg-card text-card-foreground hover:bg-accent transition-colors"
+            >
+              <div className="font-medium">dyoid Butik</div>
+              <div className="text-sm text-muted-foreground">Woocommerce/Wordpress (Sep 2024)</div>
             </Link>
             {/* Add more project links here if needed */}
           </div>
