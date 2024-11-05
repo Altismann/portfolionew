@@ -98,8 +98,10 @@ export function PortfolioPage() {
 
         {/* Projects */}
         <section className="mt-8">
-          <h3 className="text-xl font-semibold mb-4">Mina Projekt</h3>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <Card>
+            <CardContent className="p-6">
+              <h3 className="text-xl font-semibold mb-4">Mina Projekt</h3>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <Link
               href="https://www.dyoid.se/"
               className="p-4 rounded-lg border bg-card text-card-foreground hover:bg-accent transition-colors"
@@ -114,8 +116,29 @@ export function PortfolioPage() {
               <div className="font-medium">dyoid Butik</div>
               <div className="text-sm text-muted-foreground">Woocommerce/Wordpress (Sep 2024)</div>
             </Link>
-            {/* Add more project links here if needed */}
-          </div>
+            <Link
+              href="https://sitecraft.se"
+              className="p-4 rounded-lg border bg-card text-card-foreground hover:bg-accent transition-colors"
+            >
+              <div className="font-medium">Sitecraft</div>
+              <div className="text-sm text-muted-foreground">Nextjs, (den här sidan) (Sep 2024)</div>
+            </Link>
+                {/* Add more project links here if needed */}
+              </div>
+            </CardContent>
+          </Card>
+        </section>
+
+                {/* Personal Information */}
+                <section className="mt-8">
+          <Card>
+            <CardContent className="p-6">
+              <h3 className="text-xl font-semibold mb-4">Personuppgifter</h3>
+              <p className="text-sm text-muted-foreground">
+                Anders Altmann, 48 år, bor på adressen Enlundavägen 46 Stensborg, 179 75 i Skå. Telefonnummer 070-231 21 73
+              </p>
+            </CardContent>
+          </Card>
         </section>
       </main>
     </div>
