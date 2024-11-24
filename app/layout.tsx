@@ -33,7 +33,7 @@ export const metadata = {
   openGraph: {
     images: '/og-image.png',
   },
-}
+
 
 
 export default function RootLayout({
