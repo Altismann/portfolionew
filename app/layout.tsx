@@ -18,6 +18,21 @@ export const metadata: Metadata = {
   description: "Hej! Jag heter Anders... en produktdesigner och webbutvecklare plaserad i Stockholm. Jag skapar enklare gränssnitt för hobbyister och skapare.",
 };
 
+export const metadata = {
+  metadataBase: new URL('https://www.sitecraft.se/'),
+  alternates: {
+    canonical: '/',
+    languages: {
+      'sv-SE': '/sv-SE',
+      
+    },
+  },
+  openGraph: {
+    images: '/',
+  },
+}
+
+
 export default function RootLayout({
   children,
 }: Readonly<{
