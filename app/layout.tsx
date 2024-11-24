@@ -19,14 +19,10 @@ export const metadata: Metadata = {
 };
 
 export const metadata = {
-  metadataBase: new URL('https://www.sitecraft.se/'),
-    canonical: '/',
-    languages: 
+      languages: 
       'sv-SE': '/sv-SE',
-    },
   
-
-}
+}:
 
 
 export default function RootLayout({
