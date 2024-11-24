@@ -13,17 +13,6 @@ const geistMono = localFont({
   weight: "100 900",
 });
 
-export const metadata: Metadata = {
-  title: "Sitecraft Portfolio",
-  description: "Hej! Jag heter Anders... en produktdesigner och webbutvecklare plaserad i Stockholm. Jag skapar enklare gränssnitt för hobbyister och skapare.",
-  languages: {
-    'en-us': '/en-us',
-    'de-de': '/de-de',
-  },
-};
-
-
-
 export default function RootLayout({
   children,
 }: Readonly<{
