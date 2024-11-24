@@ -16,7 +16,20 @@ const geistMono = localFont({
 export const metadata: Metadata = {
   title: "Sitecraft Portfolio",
   description: "Hej! Jag heter Anders... en produktdesigner och webbutvecklare plaserad i Stockholm. Jag skapar enklare gränssnitt för hobbyister och skapare.",
-};
+  alternates: {
+    canonical: 'https://nextjs.org',
+    languages: {
+      'en-US': 'https://nextjs.org/en-US',
+      'de-DE': 'https://nextjs.org/de-DE',
+    },
+    media: {
+      'only screen and (max-width: 600px)': 'https://nextjs.org/mobile',
+    },
+    types: {
+      'application/rss+xml': 'https://nextjs.org/rss',
+    },
+  },
+}
 
 export default function RootLayout({
   children,
