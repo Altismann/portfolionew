@@ -19,8 +19,6 @@ export const metadata: Metadata = {
   languages:
     'sv-SE': '/sv-SE',
   },
-},
-};
 export default function RootLayout({
   children,
 }: Readonly<{
