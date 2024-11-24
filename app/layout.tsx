@@ -18,6 +18,21 @@ export const metadata: Metadata = {
   description: "Hej! Jag heter Anders... en produktdesigner och webbutvecklare plaserad i Stockholm. Jag skapar enklare gränssnitt för hobbyister och skapare.",
 };
 
+export const metadata = {
+  metadataBase: new URL('https://acme.com'),
+  alternates: {
+    canonical: '/',
+    languages: {
+      'en-us': '/en-us',
+      'de-de': '/de-de',
+    },
+  },
+  openGraph: {
+    images: '/og-image.png',
+  },
+}
+
+
 export default function RootLayout({
   children,
 }: Readonly<{
