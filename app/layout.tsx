@@ -16,31 +16,11 @@ const geistMono = localFont({
 export const metadata: Metadata = {
   title: "Sitecraft Portfolio",
   description: "Hej! Jag heter Anders... en produktdesigner och webbutvecklare plaserad i Stockholm. Jag skapar enklare gränssnitt för hobbyister och skapare.",
+  languages:
+    'sv-SE': '/sv-SE',
+  },
+},
 };
-export const metadata = {
-  metadataBase: new URL('https://acme.com'),
-  alternates: {
-    canonical: '/',
-    languages: {
-      'sv-SE': '/sv-SE',
-    },
-  },
-  openGraph: {
-    images: '/og-image.png',
-  },
-}
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
-  return (
-    <html lang="sv">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {children}
-      </body>
-    </html>
-  );
+
+
 }
