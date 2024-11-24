@@ -17,7 +17,18 @@ export const metadata: Metadata = {
   title: "Sitecraft Portfolio",
   description: "Hej! Jag heter Anders... en produktdesigner och webbutvecklare plaserad i Stockholm. Jag skapar enklare gränssnitt för hobbyister och skapare.",
 };
-
+export const metadata = {
+  metadataBase: new URL('https://acme.com'),
+  alternates: {
+    canonical: '/',
+    languages: {
+      'sv-SE': '/sv-SE',
+    },
+  },
+  openGraph: {
+    images: '/og-image.png',
+  },
+}
 export default function RootLayout({
   children,
 }: Readonly<{
