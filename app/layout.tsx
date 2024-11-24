@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://www.sitecraft.se/',
     languages: {
-      'sv-SE': 'https://nextjs.org/sv-SE',
+      'sv-SE': 'https://nextjs.org/sv-se',
       
     },
     media: {
