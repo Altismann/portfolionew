@@ -13,12 +13,7 @@ const geistMono = localFont({
   weight: "100 900",
 });
 
-export const metadata: Metadata = {
-  title: "Sitecraft Portfolio",
-  description: "Hej! Jag heter Anders... en produktdesigner och webbutvecklare plaserad i Stockholm. Jag skapar enklare gränssnitt för hobbyister och skapare.",
 
-  
-};
 
 
 export const metadata = {
@@ -33,21 +28,8 @@ export const metadata = {
   openGraph: {
     images: '/og-image.png',
   },
-
-
-
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
-  return (
-    <html lang="sv">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {children}
-      </body>
-    </html>
-  );
 }
+
+
+
+
