@@ -27,9 +27,7 @@ export const metadata = {
       
     },
   },
-  openGraph: {
-    images: '/',
-  },
+
 }
 
 
