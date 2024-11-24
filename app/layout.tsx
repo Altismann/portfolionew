@@ -17,9 +17,9 @@ export const metadata: Metadata = {
   title: "Sitecraft Portfolio",
   description: "Hej! Jag heter Anders... en produktdesigner och webbutvecklare plaserad i Stockholm. Jag skapar enklare gränssnitt för hobbyister och skapare.",
   alternates: {
-    canonical: 'https://www.sitecraft.se/',
+    canonical: 'https://www.sitecraft.se',
     languages: {
-      'sv-SE': 'https://nextjs.org/sv-se',
+      'sv-SE': 'https://nextjs.org/en-US',
       
     },
     media: {
